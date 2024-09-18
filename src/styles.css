@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(./assets/fonts/roboto/fonts.css);
+@import url(./assets/fonts/poppins/fonts.css);
+@import url(./assets/vendors/themify-icons/css/themify-icons.css);
+@import url(./assets/vendors/icomoon/icon.css);
+:root {
+  --blue: #79A9F5;
+  --indigo: #C45F90;
+  --purple: #A16AE8;
+  --pink: #FC8BC0;
+  --red: #F85C70;
+  --orange: #FF8882;
+  --yellow: #FAD02C;
+  --green: #A3C14A;
+  --teal: #20c997;
+  --cyan: #47D8E0;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #F85C70;
+  /* --primary: #47D8E0; */
+  --secondary: #6c757d;
+  --success: #A3C14A;
+  --info: #47D8E0;
+  --warning: #FF8882;
+  --danger: #F85C70;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Poppins","Roboto","Open Sans",sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  font-family: "Poppins","Roboto","Open Sans",sans-serif !important;
+  color: #000000A6 !important;
+  /* background-color: #f6f9fc !important; */
+}
+
+button.primary{
+  background: none;
+  outline: none;
+  box-shadow: none;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  padding: 7px 15px;
+  font-size: 0.9rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+button.primary:hover,
+button.primary:focus,
+button.primary:active,
+button.primary.active{
+  background: var(--primary);
+  color: #ffffff;
+}
